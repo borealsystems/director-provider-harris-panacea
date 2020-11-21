@@ -1,4 +1,4 @@
-import ConnectionProviderSerial from '../connectionProviders/ConnectionProviderSerial'
+import ConnectionProviderSerial from '../../connectionProviders/ConnectionProviderSerial'
 
 class DeviceProviderHarrisPanacea extends ConnectionProviderSerial {
   constructor (_device) {
