@@ -1,0 +1,10 @@
+{
+  "name": "director-provider-harris-panacea",
+  "version": "1.0.0",
+  "description": "Director Provider for Harris/Leitch/Imagine Panacea Routers",
+  "main": "index.js",
+  "repository": "https://phabricator.boreal.systems/diffusion/6/director-provider-harris-panacea.git",
+  "author": "Oliver Herrmann <oliver@monoxane.io>",
+  "license": "GPL-3.0",
+  "private": true
+}
