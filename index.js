@@ -9,6 +9,10 @@ class DeviceProviderHarrisPanacea extends ConnectionProviderSerial {
   static providerRegistration = {
     id: 'DeviceProviderHarrisPanacea',
     label: 'Harris Panacea Router',
+    manufacturer: 'Harris',
+    protocol: 'Serial',
+    description: 'The fully programmable Panacea router offers comprehensive format coverage, including HD-SDI, SDI/ASI, AES, and analogue video and audio in a flexible array of matrix sizes.',
+    category: 'Router',
     parameters: this.parameters,
     constructor: DeviceProviderHarrisPanacea
   }
