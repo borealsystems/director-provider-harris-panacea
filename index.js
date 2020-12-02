@@ -44,17 +44,26 @@ class DeviceProviderHarrisPanacea extends ConnectionProviderSerial {
             inputType: 'comboBox',
             label: 'Level',
             id: 'level',
-            items: this.levels.length === 0 ? levelArray : this.levels
+            items: this.levels.length === 0 ? levelArray : this.levels,
+            required: true,
+            placeholder: 'Router Level',
+            tooltip: 'The Router Level is typically which signal this XPT will switch.'
           },
           {
-            inputType: 'textInput',
+            inputType: 'numberInput',
+            id: 'dst',
             label: 'Destination',
-            id: 'dst'
+            required: true,
+            placeholder: 'Destination',
+            min: 1
           },
           {
-            inputType: 'textInput',
+            inputType: 'numberInput',
+            id: 'src',
             label: 'Source',
-            id: 'src'
+            required: true,
+            placeholder: 'Source',
+            min: 1
           }
         ]
       }
